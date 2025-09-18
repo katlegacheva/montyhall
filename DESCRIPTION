@@ -1,14 +1,15 @@
 Package: montyhall
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Version: 0.3.0
 Authors@R: 
-    person("Ekaterina", "Legacheva", "katlegacheva@gmail.com"", role = c("aut", "cre"))
+    person("Ekaterina", "Legacheva", , "katlegacheva@gmail.com"", role = c("aut", "cre"))
 Description: Creates and runs the montyhall games.
-Depends: dplyr
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
-Suggests: knitr, rmarkdown
-VignetteBuilder: knitr
+Suggests: 
+    testhat (>= 3.0.0)
+Config/testthat/edition: 3
+
+
