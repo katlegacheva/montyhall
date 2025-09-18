@@ -2,12 +2,13 @@ Package: montyhall
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person("Ekaterina", "Legacheva", , "katlegacheva@gmail.com"", role = c("aut", "cre"))
+    person("Ekaterina", "Legacheva", , "katlegacheva@gmail.com", role = c("aut", "cre"))
 Description: Creates and runs the montyhall games.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
+
 
 
 
